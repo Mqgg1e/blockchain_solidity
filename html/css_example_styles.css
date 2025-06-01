@@ -1,0 +1,16 @@
+.external-style {
+    background-color: #d1f2eb;
+    color: #154360;
+    border: 2px dashed #48c9b0;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 1.1em;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+.external-style:hover {
+    background-color: #48c9b0;
+    color: #fff;
+}

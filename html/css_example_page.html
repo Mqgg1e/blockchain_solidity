@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Example Page</title>
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            text-shadow: 2px 2px 4px #aaa;
+        }
+        .internal-style {
+            border: 2px solid #2980b9;
+            padding: 10px;
+            margin-bottom: 20px;
+            background: linear-gradient(90deg, #e0eafc, #cfdef3);
+            border-radius: 8px;
+            box-shadow: 2px 2px 8px #bbb;
+            font-size: 1.2em;
+            letter-spacing: 1px;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 30px;
+        }
+        a {
+            color: #e67e22;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #d35400;
+            text-decoration: underline;
+        }
+    </style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css_example_styles.css">
+</head>
+<body>
+    <h1 style="color: #16a085; background-color: #e8f8f5; padding: 10px; border-radius: 6px;">
+        CSS Example Page
+    </h1>
+
+    <div class="internal-style">
+        This div uses <b>internal CSS</b> for its style. It demonstrates properties like <i>border, padding, margin, background, border-radius, box-shadow, font-size, and letter-spacing</i>.
+    </div>
+
+    <p style="color: #8e44ad; font-weight: bold; font-style: italic; text-transform: uppercase; background-color: #f9e79f; padding: 8px; border-left: 5px solid #8e44ad;">
+        This paragraph uses <b>inline CSS</b> for its style.
+    </p>
+
+    <ul>
+        <li>List styled with <b>internal CSS</b></li>
+        <li><a href="#">This link uses internal CSS for hover effects</a></li>
+        <li class="external-style">This item will be styled by <b>external CSS</b></li>
+    </ul>
+
+    <button class="external-style">External CSS Button</button>
+</body>
+</html>
